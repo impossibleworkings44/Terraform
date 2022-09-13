@@ -14,4 +14,5 @@ Terraform keeps tracks of all the resources its deployed for you , so its differ
 ____________________________________________________
 ### table of contents
 
-1. [IaC and Its Benfits](https://github.com/impossibleworkings44/Terraform/blob/main/1.Understanding%20Infrastucure%20as%20Code/1.%20Iac%20and%20Its%20Benefits)
+1. [IaC and Its Benfits](https://github.com/impossibleworkings44/Terraform/blob/main/1.understanding%20Infrastucture%20as%20Code/1.IaC%20and%20its%20benefits.md)
+2. [Iac with terraform] (https://github.com/impossibleworkings44/Terraform/blob/main/2.IaC%20with%20Terraform/Iac%20with%20Terraform.md)
