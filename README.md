@@ -15,4 +15,4 @@ ____________________________________________________
 ### table of contents
 
 1. [IaC and Its Benfits](https://github.com/impossibleworkings44/Terraform/blob/main/1.understanding%20Infrastucture%20as%20Code/1.IaC%20and%20its%20benefits.md)
-2. [Iac with terraform] (https://github.com/impossibleworkings44/Terraform/blob/main/2.IaC%20with%20Terraform/Iac%20with%20Terraform.md)
+2. [Iac with terraform](https://github.com/impossibleworkings44/Terraform/blob/main/2.IaC%20with%20Terraform/Iac%20with%20Terraform.md)
