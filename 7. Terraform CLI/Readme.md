@@ -12,7 +12,7 @@
 - can be run when made changes to code, before pushing changes to version control
 
 ## 1) Terraform taint [syntax : terraform taint RESURCE_ADDRESS)
-- taints a resource , forcing it to be destroyed and recreated
+- taints a resource , forcing it to be destroyed and recreated(it's recreated when terraform apply command is applied again)
 - modifies the state file, which causes the recreation workflow
 - tainting a resource may cause other resources to be modified(eg change in public ip address)
 
@@ -50,7 +50,7 @@ terraform {
 
 ```
 
-## 2) Terraform Workspaces
+## 2) Terraform Workspaces 
 - the terraform workspaces are alternate files within the same working directory(state files are source of truth)(diff state files can be used to spun diff environments)
 - terraform starts with a single workspace (called "default" ) it cannot be deleted
 - Access to a workspace name is provided through ${terraform.workspace} variable </br>
