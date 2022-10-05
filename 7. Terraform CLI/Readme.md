@@ -49,3 +49,22 @@ terraform {
 
 
 ```
+
+## 2) Terraform Workspaces
+- the terraform workspaces are alternate files within the same working directory(state files are source of truth)(diff state files can be used to spun diff environments)
+- terraform starts with a single workspace (called "default" ) it cannot be deleted
+- Access to a workspace name is provided through ${terraform.workspace} variable </br>
+
+| command| Description |
+|--------|-------------|
+| terraform workspace list | list the diff workspace present in terraform |
+| terraform workspace new workspacename | creating a new workspace |
+| terraform workspace select worskpacename | switch to workspace |
+
+## Debugging terraform
+- TF_LOG is an environment variable for enabling verbose logging in terraform, By default it sends logs to stderr.
+- can be set to following levels : TRACE, DEBUG, INFO , WARN, ERROR
+- TRACE is the most verbose level of logging and most reliable one
+- to presist logged output, use the TF_LOG_PATH environment variable
+- eg: export TF_LOG = TRACE
+- eg : export TF_LOG_PATH = terraform.log
