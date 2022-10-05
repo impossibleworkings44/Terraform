@@ -4,6 +4,7 @@
 - WRITE (generally starts with creating github repo as best common practise)
 - PLAN (Continually  add and review changes to code in your project )
 - APPLY (Read to provision real infrastructure)
+![image](https://user-images.githubusercontent.com/76193921/194004953-37a24646-289f-477b-9de5-17bd8492e9df.png)
 
 _________
 
