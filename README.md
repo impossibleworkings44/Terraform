@@ -23,3 +23,4 @@ ____________________________________________________
 6. [Built in function and dynamic blocks](https://github.com/impossibleworkings44/Terraform/blob/main/6.%20Built-in%20Functions%20and%20Dynamic%20Blocks/Readme.md)
 7. [Terraform CLI](https://github.com/impossibleworkings44/Terraform/blob/main/7.%20Terraform%20CLI/Readme.md)
 8. [Terraform Cloud and enterprise](https://github.com/impossibleworkings44/Terraform/blob/main/8.%20Terraform%20Cloud%20and%20Enterprise/Readme.md)
+✅
