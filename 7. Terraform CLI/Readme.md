@@ -11,7 +11,7 @@
  - helps in keeping code consistent
 - can be run when made changes to code, before pushing changes to version control
 
-#### Terraform taint [syntax : terraform taint RESURCE_ADDRESS)
+## 1) Terraform taint [syntax : terraform taint RESURCE_ADDRESS)
 - taints a resource , forcing it to be destroyed and recreated
 - modifies the state file, which causes the recreation workflow
 - tainting a resource may cause other resources to be modified(eg change in public ip address)
@@ -61,7 +61,7 @@ terraform {
 | terraform workspace new workspacename | creating a new workspace |
 | terraform workspace select worskpacename | switch to workspace |
 
-## Debugging terraform
+## 3) Debugging terraform
 - TF_LOG is an environment variable for enabling verbose logging in terraform, By default it sends logs to stderr.
 - can be set to following levels : TRACE, DEBUG, INFO , WARN, ERROR
 - TRACE is the most verbose level of logging and most reliable one
